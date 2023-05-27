@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-05-25 jeu. 13:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Morning Star Newspaper" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<p>
+Marte 2023-a jaro deputato de la germana parlamento Sevim Dagdelen vojaĝis en Mauricion por partopreni politikajn diskutojn pri stato de aktualoj intertraktadoj interla Mauricia Respubliko k Britanio por revenigi la Ĉagosajn Insulojn al Mauricio.
+</p>
+
+<p>
+La arkipelago estas ankoraŭ kontraŭleĝe okupita per Britanio k Usono; ĉi lasta uzas ĝian pli grandan insulon, Diego Garcio, kiel militbazo.
+</p>
+
+<p>
+Dum ŝia vizito, Dagdelen renkontis reprezentantojn de la Mauricia Respublika reĝistaro, inter ili la vic-ĉefministron, la eksterlandministron, deputatojn de la nacia parlamento, ankaŭ reprezentojn de la Mauricia paĉmovado k ĉagosanojn kiuj, en perfortkontraveno de homrajtoj k internacia leĝo, estis deportitaj for de la insuloj en 1966 k 1973.
+</p>
+
+<p>
+En ŝiaj enkondukaj rimarkoj je simpozio ĉe Universitato de Mauricio ŝi traktas la stemon - "Neokoloniismo en la 21-a jarcento kaj la bezono dekolonizi" - jene:
+</p>
+
+<p>
+Diskutado pri koloniismo en Germanio kutime temas pri kiel dekolonizigi nian traktadon de historio, ja alfronti la tiklan aferon de nia sangoplena kolonia pasinteco, aparte en Namibio k Tanzanio.
+</p>
+
+<p>
+Ĉi-rilate notindas ke la federala (Germana) registaro fortan deziron pagi rekompenson por la abomenindaj krimoj de koloniismo ĝis nun ne demonstris.
+</p>
+
+<p>
+Mankanta aspekto en iu publika debato prie estas la fakto ke, en du sensoj alm-n, la kolonia epoko ankoraŭ ne finiĝis - en la aktuala epoko de bruta ekspluatado k senpovigado, k ankaŭ la epoko de eliminema rasismo kiu dauriĝas ĝis nun.
+</p>
+
+<p>
+Oni povos tre konkrete vidi daurigon de la kolonia epoko en Mauricio tra la daurigata okupado de la Ĉagosa Arkipelago, eĉ post la sendependiĝo de Mauricio en 1968.
+</p>
+
+<p>
+Memorindas ke la Britanoj, en interkonsento kun Usonaj ordonoj, apartigis la Ĉagosan Arkipelagon for de Mauricio en 1965, tute en daurigantaj sian kolonian okupadon de la teritorio.
+</p>
+
+<p>
+La kialo substrekanta ĉi tiujn ordonojn fare de Usona administracio estis plano konstrui grandegan Usonan militbazon havantan geostrategian gravecan meze de la Hinda Oceano - kiu poste devenis centrejon por kontrauhomaraj krimoj tiel, ke ĝi provizis platformon k por malleĝaj usonaj militoj, k transportbazon por torturoflugoj.
+</p>
+
+<p>
+La 1960-aj estis jaroj de malkoloniado. Ampleksiĝanta kvanto da estintaj kolonioj povis aserti la rajton de memdetermino por populoj, kiu estas enskribita en la UN Ĉarto kiel fundamenta principo de internaciaj rilatoj.
+</p>
+
+<p>
+Malkoloniismo estiĝis rezulte de celkonscia rezisto de subpremitaj loĝistaroj kontraŭ siaj subpremantoj.
+</p>
+
+<p>
+Kaze de Ĉagosa Arkipelago, la Usono k Britio ne volis riski ion ajn. Aldone al malkunigi la teritorion de Mauricio, por eviti iujn estontajn demandojn por malkoloniigo, la tuta insula loĝistaro estis deportita.
+</p>
+
+<p>
+Tial agoj entreprenitaj cele krei ŝirmon de leĝeco por Usona bazo en la Ĉagosa Arkipelago kuniris manenmane kun kontraŭhomaraj krimoj, kun ago de naŭziganta, eliminema rasismo.
+</p>
+
+<p>
+La loĝantoj de la insuloj estis traktitaj simple kiel senvivaj objektoj - kaj, kun siaj posteuloj kune, ili ĝis hodiau pagadas la prezon je ĉi tiu senskrupula deportacio de tuta unu loĝistaro.
+</p>
+
+<p>
+Ĉio ebla devas esti farita por certigi la ĉeson por ĉiam de ĉi tiu hontinda ĉapitro en la historio de koloniismo, k por returnigi la Ĉagosan Arkipelagon al Mauricio, kiu permesos al la loĝantoj k siaj posteuloj reveni hejmen.
+</p>
+
+<p>
+Mi hontas pri la decido de la Federala registaro kiu, kontraŭe al tio de plejmulto de statoj ĉe la UN-a generala asembleo, sindetenis en voĉdono por efektivigo de Opinio de la Internacia Kortumo rilate returnigo de la Ĉagosa Arkipelago.
+</p>
+
+<p>
+Ĉi tiu laŭ mi frapmaniere demonstras la hipokritecon flanke de NATO aŭ Usono-aliancanaj landoj aŭ, esprimita iom alie, la proverbo - 'unu korvo ne pikmanĝu la okulon de alia" - ŝajnus aplikiĝi.
+</p>
+
+<p>
+Cetere, okaze de la 20-a datreveno de la Iraka milito, ni devas aknoski ke eĉ internaciaj institucioj kiel la Internacia Justickortumo uzas du malsamajn pesilojn k en la realo ne pretas agi kontraŭ la Usono, NATO k la aliancanoj.
+</p>
+
+<p>
+Ĉi tion oni ankaŭ povas vidi en la Ĉagosa Arkipelaga afero, kie la krimo de deportacio, kvankam farita en kruda, senhonta maniero, havis absolute neniajn jurajn konsekvencojn, t.e. ĝi nur konfirmas la ĉeftendencon  doni imunecon al la NATO militaliancanoj, spite al tio ke ili, kiel kaŭzintoj, libere agnoskas respondecon en ĉi tiu kontraŭhomara krimo.
+</p>
+
+<p>
+La problemo konsistas en tio, ke uzado per la justico de du malsamaj pesiloj, t.e ĝia subjektiveco, ne nur detruas la kredeblecon de ĉiuj koncernitaj, sed ankaŭ hakas al la fundamentoj de kooperaj paĉaj internaciaj rilatoj mem.
+</p>
+
+<p>
+Hipokriteco k apliko de malsamaj moralaj principoj subfosas la internacian justicordon k helpas ĉiamigi la kolonian epokon.
+</p>
+
+<p>
+Kaj ĉi tio alvenigis min al dua fenomeno enmiksita en la dauriĝanta koloniismo de nia epoko. Ĝi temas pri novkoloniismo, en la senso precizigita per antaŭa prezidento de Gana, kwame Nkrumah.
+</p>
+
+<p>
+Nkrumah bildigis novkoliismon kiel sistema obstaklo trafita de postkoloniaj ŝtatoj en iliaj rilatoj kun antaŭaj Europaj koloniaj imperioj. Li indikis ke, kvankam la antaŭaj kolonioj teorie sendependiĝis k povis montri ĉiun eksternan signon elvokantan en la menso ideon pri suvereneco, ili ankoraŭ ne atingis veran suverenecon.
+</p>
+
+<p>
+K hodiaŭ, eĉ en 21-a jarcento, ni povas atesti daurajn provojn organizi novkolonian ekspluatadon, aparte sur la Afrika kontinento, ĉu fare de bruta ekspluatado de naturaj riĉaĵoj per Okidentaj korporacioj, ĉu per la povo de financaj organizoj kiuj decidas la faton de Afrikaj landoj malavantaĝe por ili.
+</p>
+
+<p>
+En pli proksima pasinteco ni ankaŭ vidis aldonan novkoloniisman fenomenon kie la Usono - k ankaŭ aliancanoj kiel Germanio - klinas sin sufiĉe malalten por klopodi, pere de iuj 'moralinstruoj', minacoj ja premo, al t.n. sudglobusaj landoj por ricevi ilian apogon en la prokura milito en Ukrainio inter la Okidento k Rusio, ĝis etapo direkte insisti, ekzemple, ke Barato partoprenu en la kontraŭrusa ekonomia milito kiun ili kondutadas, malavantaĝe eĉ al ekonomiaj interesoj de Barato mem.
+</p>
+
+<p>
+Miaopinie des pli ĝi ekklariĝas ke la ekonomia milito kontraŭ Rusio pezas, antaŭ ĉio, sur la interesoj de propraj loĝantaroj de ĉi tiuj landoj, pli la provoj perforti al sudglobusaj ŝtatoj, en novkolonia stilo, preni mezurojn kiuj estas ruinigaj por iliaj propraj loĝantaroj ampleksos. Tial ili estos degraditaj en ŝtatoj kun plietigita suvereneco.
+</p>
+
+<p>
+Tamen mi havas impreson ke, kaze de Barato k ankaŭ Brazilo, rezistado al tiu speco de novkoloniismo kreskas.
+</p>
+
+<p>
+La pado kiu venigos nin en plurpolusan mondon, eĉ se ni devos sekvadi ĝin fronte al kontraŭstaro de registaroj de NATO-aj ŝtatoj - aŭ, kaze de Hindia Oceano, la Aukusa milita pakto, al kio la militbazo en Ĉagosa Arkipelago estas esenca por ĝia politiko de konfrontado k encirkligo de Ĉinio - estas neinverisgebla.
+</p>
+
+<hr />
+
+<p>
+. 
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Morning Star Newspaper</p>
+<p class="date">Created: 2023-05-25 jeu. 13:21</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
