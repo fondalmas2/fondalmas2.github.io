@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-06-27 mar. 09:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Lou O'Carroll" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<p>
+LA MASKITA PER PROPAGANDKITELO MILITO KIU ALVENAS ENMIKSIGOS NIN ĈIUJN. FARU AŬDIGI VIAN VOĈON! (1 majo 2023)
+</p>
+
+<p>
+[En ĉi tiu nova eseo John Pilger memorigas pri la arda kontraŭstaro fare de verkistoj k ĵurnalistoj alfronte al proksimiĝanta milito en la 1930-aj, k provas trovi eksplikon por fenomeno kion li nomigas 'silento sorbiĝita per iu subkoncia interkonsento por efektivigi mutualan informkontrolan politikon' en tempo kiam konflikto inter la du plej grandaj potencoj alproksimiĝas.]
+</p>
+
+
+<p>
+En 1935 la Kongreso de Usonaj Verkistoj okazis en Novjorko; ĉi tiu kongreso
+reeokazis ankaŭ du jaroj poste. Oni alvokis al 'la centoj da poetoj, romanistoj,
+dramistoj, noveletistoj kaj ĵurnalistoj' diskutadi pri 'la rapida disfalo de
+kapitalismo' k alproksimiĝo de nova mondmilito'. Ili estis elektrikaj,
+pasiigantaj eventoj ĉe kiuj, laŭ unu ĉeestanto, eventuale partoprenis 3500
+civitanoj, tio post forsendo de pli ol 1000 pro manko da lokoj.
+</p>
+
+<p>
+Arthur Miller, Myra Page, Lillian Hellman, Dashiel Hammett avertis pri kresko, ofte maskovestita, de faŝismo, k esprimis opinion ke verkistoj k ĵurnalistoj havis respondecon aŭdigi siajn voĉojn prie. Telegramoj de apogo senditaj de Thomas Mann, John Steinbeck, Ernest Hemingway, C Day Lewis, Upton Sinclair k Albert Einstein estis voĉe legitaj.
+</p>
+
+<p>
+Ĵurnalistino k romanistino Martha Gellhorn proparoladis por la senhejm' k senlaboruloj k 'ni ĉiuj, kiuj troviĝas sub la ombro de granda k perforta potenco'.
+</p>
+
+<p>
+Poste Martha, kiu jam stariĝis intima amikino, eksplikis al mi dum drinkado de sia preferita glaso da 'Famous Grouse' (viskio) kun sodo: 'la respondeco kiun mi spertis estis senlima. Mi jam atestis la maljustaĵojn k suferojn fare de la Granda Depresio k mi sciis, fakte ni sciis ĉiuj kio alvenus se oni ne rompus la silenton.
+</p>
+
+<p>
+Ŝiaj vortoj reeĥas tra la hodiaŭajn silentojn - ĉi tiujn ŝajne sorbiĝitajn per iu senkonscia interkonsento kies celo estas efektivigo de specifa informkontrola intertraktado kiu infektus preskaŭ ĉion kion ni legas, vidas aŭ aŭdas. Mi donu unu ekzemplon:
+</p>
+
+<p>
+La 7 marso, la du plej aĝaj gazetoj en Australio, la Sydney Morning Herald kaj The Age, konsekris sufiĉe grandan kvanton da paĝoj en siaj eldonaĵoj al t.n. 'alproksimiĝanta minaco' kio estis Ĉinio. Karto de la Pacifikon estis pentrita ruĝkolore. La ĉinulaj okuloj estis prezentitaj kiel militemaj, marŝantaj, minacantaj. La 'flava Perilo' pretis iumomente fali sur nin, ŝajne pro simpla gravita forto.
+</p>
+
+<p>
+Neniu logika kialo por atako fare de Ĉinio sur Aŭstralio estis provizita. Ŝajna
+'enketkomisiono da fakuloj' prezentis nenian kredeblan pruvmaterialon: unu el
+ĝiaj membroj eĉ estis antaŭa direktoro de Australia Instituto por Strategia Politiko, t.e. fasado por la Departemento de Defendo en Canberro, Pentagono en Vaŝingtono, registaroj de Britujo, Japanio k Taiĥuano k la okcidenta milita industrio.
+</p>
+
+<p>
+'Pekino povus ataki en malpli ol tri jaroj,' ili avertis. 'Ni ne estas pretaj.'
+Miliardoj da dolaroj estos elspezitaj por aĉeti Usonajn submarŝipojn, sed tio
+ŝajne ne sufiĉos. Ili aldonis iome kriptan frazon: 'finita la Aŭstrala ferio for de homhistorio' (?!)
+</p>
+
+<p>
+Neniu minacas Aŭstralion. Neniu. La malproksima 'bonĉansa' lando ne havas malamikojn, k se eĉ ĝi havus, la plej malverŝajna estus Ĉinio, ĝia precipa kunkomercanto. Tamen la Ĉinio-draŝado devenis kvazaŭsporton por ĉi tiuj memkomisiitaj 'fakuloj' -  Aŭstralio havas longan historion de rasismo rilate aziodevenuloj finfine. Kion ĉindevenaj Aŭstralanoj konkludas el ĉi tio? Multaj estas konfuzitaj k timemaj.
+</p>
+
+<p>
+Mi pensas la ĝusta nomo por la aŭtoroj de ĉi tiu groteska, provokanta, k samtempe pugolekanta rilate Usona potenco skribaĵo, Peter Hartcher k Mathew Knott, esta 'nacsekurecaj raportistoj'. Hartcher estas jam konata al mi pro liaj (israelaj) ŝtatpagitaj gapopromenadoj. La alia, Knott, estas proparolanto por la ŝtabaj animoj en Canberra. Nek la unua nek la dua iam vidis militzonon kun ĝia ekstrema sufero k malnobligo.
+</p>
+
+<p>
+'Kiel ni povis alveni ĉi tien?' Martha Gelhorn estus dirinta se ŝi povus ĉeesti. 'Kie, Dio mia, estas la voĉoj dirantaj - NE!? Kie estas la kamaradeco?'
+</p>
+
+<p>
+La voĉoj aŭdeblas en la samizdato de ĉi tiu k aliaj retejoj. En la literaturo,
+John Steinbeck, Carson McCullers, George Orwell k similaj jam kadukiĝis. Nun
+alvenis la post-modernisma tempo. Liberalismo eltiris sian politikan
+ŝnurŝtupetaron. Iama socialdemokratia Aŭstralio jam enkondukis aron da novaj
+leĝoj kies celo estas protekti sektretan aŭtoritaran povon k meti baron sur
+vojon de tiuj kiuj  volus ekzerci sian rajton informiĝi. Denuncistoj estas
+eksterleĝuloj kiuj estas juĝitaj en ŝlosita kortumo. Aparte malbonsigna estas leĝo kiu malpermesas 'eksterlandan enmiksiĝon' fare de laborantoj por eksterlandaj kompanioj. Kion ĉi tio povus aŭguri?
+</p>
+
+<p>
+Demokratio fariĝis nur nebula nocio nun: anstataŭigis ĝin ĉiosense suprapova elito konsistigata el tandemo de la korporacio funkcianta kun la ŝtato, k enkalkulanta la bezonojn de 'identeco'. La Aŭstralaj impostpagantoj honorarias Usonajn admiralojn per miloj da dolaroj ĉiutage por 'konseloj'. Ĉie en okcidento la publikinformadaj reĝoj poluradas k pacigadas nian politikan imagon k distrigas nin per babilaĉoj pri triagradaj koruptitaj ultra-plumpezaj klaĉgazetherooj en la stilo de Johnson, Trump, Zelensky k 'Dormemulo Ĵo'.
+</p>
+
+<p>
+Ĉitempe, en 2023, nenia kongreso de verkistoj maltrankviliĝas pri 'depecetiĝo de kapitalismo' aŭ la mortigaj incitegoadoj fare de 'niaj' gvidantoj. La plej fifama el ili, Tony Blair, kiun oni post eĉ unua rigardo povus rekoni kiel krimulo laŭ Nuremberga Normo, estas libera k riĉa. Samtempe Julian Assange, kiu defiis al ĵurnalistoj demonstri la rajton de siaj legantoj informiĝi, jam travivas sian duan dekjaron de enprizoniĝo.
+</p>
+
+<p>
+La kresko de faŝismo en Europo estas malkontestata. Aŭ nomu ĝin 'neo-nacismo' aŭ 'ekstrema naciismo' laŭ prefero. Ukrainio, la faŝisma abelujo de nuntempa Europo, devenis reenaskiĝejon por la personkulto de Stepan Bandera - pasia antisemito k amasmurdisto kiu laŭdis la Ĥitleran 'Judan Politikon' kiu rezultis en la amasbuĉado de 1.5 milionoj da ukrainaj hebreoj. 'Ni deponos viajn kapojn ĉe la piedoj de Hitlero!' proklamis Banderista pamfleto al la hebreoj de Ukrainio.
+</p>
+
+<p>
+Hodiaŭ en okcidenta parto de Ukrainio Bandera estas adorata kiel heroo, k la Eurounio k Usono jam financis dekduojn de statuoj de li k de liaj faŝistaj kunuloj por anstataŭigi tiujn de Rusaj kulturaj gigantoj, ankaŭ de tiuj kiuj liberigis Ukrainion de la veraj nazioj.
+</p>
+
+<p>
+Neo-nazioj ludis ŝlosilan rolon en Usone financita puĉo kontraŭ laŭleĝe elektita
+prezidanto, Viktor Janukoviĉ, kiun oni akuzis pri 'pormoskva laboro' en 2014. La reĝimo instalita post-puĉe inkluzivis multajn ĉiekonatajn 'ekstremajn naciistojn', t.e. ĉiuaspekte nazioj, krom en la nomo.
+</p>
+
+<p>
+La BoBoCo k la Europaj k Usonaj amaskomunikiloj unue efektivigis detalan raportadon pri ĉi tiuj eventoj. En 2019 la gazeto 'Time' eldonis multpaĝan artikolon pri ' blankhegemonistaj militantoj' aktivaj en Ukrainio. NBC News raportis 'La Ukraina Nazia problemo estas reala'. La oferbuĉo de sindikatistoj en Odesa estis filmita k dokumentita.
+</p>
+
+<p>
+Uzanta kiel lancpinto la Azovan regimenton, kies insigno, la 'Wolfsangel' fifamigis la Germanan SS, la Ukrainia armeo invadis la orientan, ruslingvan Donbason. Laŭ la Unuiĝintaj Nacioj 14000 estis mortigitaj en oriento. Sep jaroj poste, kiam , kiel Angela Merkel mem agnoskis, la Minskaj traktatoj estis jam sabotitaj, la ruĝarmeo invadis.
+</p>
+
+<p>
+Ĉi tiu versio de eventoj ne estas raportita en okcidento. Eĉ mencii ĝin egalas
+inviti tujan torenton da insultoj k akuzoj esti 'apologisto por Putino' eĉ se la
+verkisto nedubeble (kiel via humila servanto) jam kondamnis la Rusan invadon. Iu
+ajn strebado kompreni la veran profundon de la provoko ke NATO-armita limlando
+</p>
+<ul class="org-ul">
+<li>la sama limlando tra kio Ĥitlero invadis - prezentus al Moskvo, estis por ili anatema.</li>
+</ul>
+
+<p>
+Ĵurnalistoj kiuj vojaĝis en Donbason estis buŝumitaj, ĉasitaj en siaj propraj landoj eĉ. La Germana ĵurnalisto Patrik Baab perdis sian laboron, k la juna Germana memdungata raportistino Alina Lipp suferis sekvestron de sia bankokonto.
+</p>
+
+<p>
+En Britio minaca timigo de liberala inteligencio rezultis en ĝia silencigo. Se oni volus konservi universitatan aŭ alian akademian postenon estus prefereble eviti diskutojn pri temoj kiel Ukrainio aŭ Israelo, aŭ kie interesoj de loka aŭ alia pezinflua ŝtato enmiksiĝas. Tio kio okazis kun Jeremy Corbyn en 2019 reeokazadas en universitataj terenoj kie kontraŭstarantoj de rasapartiga Israelo estas senceremonie fiŝmiritaj kiel antisemitaj.
+</p>
+
+<p>
+Profesoro David Miller, per ironitordaĵo konsiderata kiel plej elstara landa fakulo en la kampo de moderna propagando, perdis sian postenon ĉe Universitato de Bristolo pro publika sugesto ke porisraelaj premgrupoj en Britio k ilia politika lobiado praktikigis misproporcian influigadon tutmonde - fakto apogita per substantiva kvanto da atestoj.
+</p>
+
+<p>
+La universitato dungis specialan 'Reĝinkonselistan' advokaton cele konduki sendependan esporadon ĉiafere. En sia raporto li senkulpigis Milleron pro la 'neceso konservi la gravan akademian rajton al libero de esprimo' k konkludis ke 'la rimarkoj de Profesoro Miller ne estigis [la krimon de] malleĝa diskurso'. Kvankam la Bristolanoj maldungis lin. La mesaĝo estas klara: Ne gravas kian senhontaĵon ĝi fifarus, Israelo havas imunecon k ĝiaj kritikistoj devas esti punitaj.
+</p>
+
+<p>
+Antaŭe kelkjaroj Terry Eagleton, tiama profesoro de Angla literaturo ĉe Universitato de Manĉestero konkludis ke 'unuefoje dum du jarcentoj, oni ne havas nek Britan poeton, nek dramaturgon, nek romaniston kiu pretas konduki envere objektivan kontraŭekzmaminon de la okcidenta vivmaniero k la fundamentoj sur kiuj ĝi estas konstruita'.
+</p>
+
+<p>
+Nenia Shelley donas sian voĉon por defendi la senhavulojn, nenia Blake por esprimi utopiajn sonĝojn, nenia Byron damnas korupcion meze de la gvidanta elitostaro, nenia Thomas Carlyle aŭ John Ruskin malkovras la moralan katastrofon kio estas Kapitalismo. William Morris, Oscar Wilde, HG Wells, Gearge Bernard Shaw ne havas ekvivalentulojn hodiaŭ. Tiam Harold Pinter vivis ankoraŭ, 'la lasta de tiuj kiuj faris aŭdigi siajn voĉojn', skribis Eagleton.
+</p>
+
+<p>
+De kie alvenis ĉi tiu malakcepto de reala, vivanta politika aktiveco k aŭtentika malkonsento kiun karakterizas post-modernismo? La eldono, en 1970, de furorlibro fare de Charles Reich nomita - 'La Verdiĝo de Usono' - provizus al ni spurvojon. La tiama Usono estis en stato de perturbo: Nixon estis en la Blanka Domo, k aktiva civitana kontraŭstaro, konata simple kiel 'La Movado' eklatis el la marĝenoj de la socio meze de milito kiu tuŝis la vivojn de preskaŭ ĉiuj. En alianco kun la movado por civitanaj rajtoj ĝi prezentis la plej gravan defion al Vaŝingtona povo ekde jarcento.
+</p>
+
+<p>
+La libro de Reich havis sur la kovrilo ĉi tiujn vortojn: 'Revolucio alvenos, sed ĝii ne similos al revolucioj el la pasinteco. Ĉi tiu havos en ĝia kerno la individuon.'
+</p>
+
+<p>
+Tiutempe mi estis raportisto en Usono k mi memoras kiel Reich, juna akademiulo el Universitato de Yale, ŝajne en la daŭro de unu nokto estis altigita al statuso de guruo. La 'New Yorker' jam estis sensacie serialigita lian libron, kies mesaĝo estis ke la 'aŭtentika politika aktiveco k direkta parolado' de la 1960-aj jam malsuksesis, k sole 'la kulturo k introspekto' ŝanĝus la mondon. Oni havis imprezon ke la hipistaro alkroĉigis la konsumantajn klasojn al sia brusto, k en certa senso ĝi estis tiel.
+</p>
+
+<p>
+Post manpleno da jaroj la kulto de 'mi-ismo' jam preskaŭ komplete superŝutis nociojn kultivitajn ĉe multaj ĝis tiam de socia justeco k internaciismo, aŭ ke homoj povus, ekzemple, agi kune. De nun la ideoj de klaso, sekso k raso estu traktitaj aparte. De nun la persona k la politika estu kunfandita. La persona, efektive, devenis la politikan, k por trovi la trafan mesaĝon oni devas nur legi la amaskomunikilojn. 'Lukru!', ili muĝadis.
+</p>
+
+<p>
+Flanke 'la movado' kun ĝia espero k kantoj, la jaroj de Ronald Reagan k Bill Clinton metis finon al ĉio tio. Nun la policistaro nekaŝeme militis kontraŭ la nigrula loĝistaro; la fifamaj leĝoj limigantaj helpmonon por senlaboruloj kiujn Clinton enkondukis rezultis en ĝis tiam ne vidita kvanto da (plejparte nigraj) homoj forĵetitaj en prizonon.
+</p>
+
+<p>
+Kiam okazis 9/11, fabrikado de novaj 'minacoj' sur la Usonaj 'randaj teritorioj' (tiel la 'Projekto por Nova Usona Jarcento' nomis la mondon) finfaris la politikan malorientecon de tiuj kiuj antaŭe 20 jaroj estus konsistiginta ardan kontraŭstaron.
+</p>
+
+<p>
+Dum la intervenintaj jaroj Usono efektive militadis kontraŭ la cetera mondo. Laŭ (grandparte ignorita) raportaĵo eldonita per Kuracistoj por Socia Respondeco, Kuracistoj por Tutmonda Transvivo, k la Nobelpremitaj Kuracistoj por Prevento de Nuklea Milito, la kvanto da mortigintoj fare de la Usona 'milito kontraŭ teroro' en Afganistanio, Irako k Pakistano estis 'almenaŭ' unu miliono k triono.
+</p>
+
+<p>
+Ĉi tiu cifero ne inkluzivas mortigintojn en militoj mastrumitaj k ardigitaj per Usono en Jemeno, Libio, Sirio, Somalio k aliaj landoj. Pli vera cifero, laŭ la raporto, 'estus verŝajne pli ol du milionoj - dekfoje, alivorte, pli ol tio kion kalkulas la fakuloj k la decidofarantoj, aŭ ol tio pri kio konscias la publiko, k certe ol tio kion la informiloj k ĉefaj neregistaraj organizoj propagandas..'
+</p>
+
+<p>
+'Almenaŭ' unu miliono estis mortiginta en Irako, diras la kuracistoj, aŭ kvin elcentoj de la loĝistaro.
+</p>
+
+<p>
+La grandegeco de ĉi tiu violento k sufero estas tioma ke ĝi eĉ ne povas trovi placon en la okcidenta konscio. 'Neniu scias kiom' kantas la informiloj refrene. Blair k George W. Bush &#x2013; k Dick Cheney, Colin Powell, Donald Rumsfeld, Jack Straw, John Howard k aliaj - neniam nek riskis nek riskos persekuton. La propaganda majstro de Blair, Alistair Campbell, estas aplaŭdita hodiaŭ kiel iu 'komunikila famulo'.
+</p>
+
+<p>
+En 2003 mi filmis intervuon en Vaŝingtono kun aklamita enketista ĵurnalisto Charles Lewis. Ni diskutis la invadon de Irako kiu okazis iuj monatoj antaŭe. Mi demandis al li, 'Kio estus okazinta se la, laŭ ilia konstitucio, plej liberaj komunikiloj en la mondo estus defiintaj al George W. Bush k Donald Rumsfeld k esplorintaj iliajn asertaĵojn, antaŭe ol disvastigi tion kio finfine montriĝis kiel kruda propagando.
+</p>
+
+<p>
+Li respondis al mi: 'Se ni ĵurnalistoj estus agintaj laŭ bezonoj de nia profesio k ne tiuj de niaj dungantoj, ekzistus fortega, tre verŝajna ŝanco ke ni ne estus militintaj en Irako.
+</p>
+
+<p>
+Mi metis la saman demandon al Dan Rather, fama gvidanto de aktualaĵelsendoj ĉe CBS, kiu donis la saman respondon. David Rose el gazeto 'The Observer', kiu frue antaŭenpuŝadas la 'minacon' flanke Saddam Hussein k Rageh Omaar, la BoBoCoa tiama korespento en Irako ankaŭ donis saman respondon. La admirinda kontricio fare Rose pro esti dupita aŭdigis la sentojn de multaj raportistoj ĉe kiuj malsufiĉis kuraĵon esprimi prie.
+</p>
+
+<p>
+La starpunkto valoras ripetadon. Se ĵurnalistoj estus agintaj laŭ sia profesia devo, se ili estus esplordemandintaj, pli profunde enketintaj pri artikoltemoj anstataŭe ol simple disvastigi propangandon provizitan per laborodonantoj - miliono da Irakaj viroj, virinoj k infanoj vivus ankoraŭ hodiaŭ, milionoj ne estus devigitaj fuĝi siajn hejmojn, streĉaj rilatoj inter Suniuloj k Ŝiuloj eble ne esplodus en militon, k 'Islama Ŝtato' ne ekzistus.
+</p>
+
+<p>
+Apliku tiun veraĵon al ĉiuj rabemaj militoj instigitaj per Usono k ĝiaj 'aliancanoj' ekde 1945 k ni alvenu al senspirigan konkludon. Ĉu oni iam eĉ mencias tiaĵojn en ĵurnalismaj lernejoj?
+</p>
+
+<p>
+En la moderna mondo ŝlosila tasko de 'ĉeftendenca ĵurnalismo' estas konduki t.n 'informan militon' en fasono kiu similus al tiu kiun iu Nuremberga prokuroro en 1945 bildigis tiel: 'antaŭe ol ĉiu grandskala agreso, kun iuj (tre malmultaj) esceptoj pro celkonformaj bezonoj, ili iniciatis informilan kampanjon cele malfortigi siajn viktimojn k pretigi la Germanan popolon&#x2026; En la propagandmaŝino&#x2026; la plej efektivaj armiloj estis la ĉiutaga gazetaro k radiofonio.'
+</p>
+
+<p>
+Persista, eble unu el plej persistaj tendencoj en Usona politika vivo estas certa kulta ekstremismo kiu ja alpaŝas al la sojlo de faŝismo. Plej ofte oni ĵetadas la kulpon por tio sur Trumpon, sed menciindas ke estis dum la (du terma) oficdaŭro de Obama ke Usona eksterlanda politiko flirtumis kun faŝismo. Ĉi tion oni preskaŭ neniam mencias.
+</p>
+
+<p>
+'Mi kredas plenkore je la Usona esceptoisma ideo,' diris Obama, kiu pliampleksigis favoritan prezidentan ŝatokupon, la bombadon, k uzon de mortigaj taĉmentoj, kiujn oni nomadas 'specialaj operacioj', pli ol iu ajn alia prezidento ekde la unua malvarma milito,
+</p>
+
+<p>
+Laŭ ekspertizo fare de Konsilantaro por Eksterlandaj Rilatoj, en 2016 Obama faligis 26171 bombojn. Tio estas 72 bomboj ĉiutage. Li bombadis la plej mizerulojn, nigrulojn, neblankulojn en Afganistano, Libio, Jemeno, Somalio, Sirio, Irako, Pakistano..
+</p>
+
+<p>
+Laŭ raportaĵo de la New York Times, ĉiun mardon li persone selektadis tiujn kiuj estus murditaj per dronpafitaj 'flamoj de infero' rakedoj. Edzigaj festoj, enterigoj, paŝtistoj eĉ estis atakitaj, k ankaŭ tiuj kiuj provis rekuperi kadavropecetojn ĵetkovrantaj la 'teroristan celon'.
+</p>
+
+<p>
+Elastara Respublikana senatoro, Lindsey Graham, kalkulis aprobe ke la dronoj de Obama jam mortigis 4700 personoj. 'Fojfoje oni maltrafas k senkulpuloj suferas, k mi abomenas tion,' li diris, 'sed ni kvankam sukcesis iufoje elimini tre altgradajn membrojn de Al Qaedo.'
+</p>
+
+<p>
+En 2011 Obama informis la amaskomunikojn ke la prezidento de Libio, Muammar Gaddafi planis fari genocidon kontraŭ sian propran popolon. 'Ni sciis&#x2026;' li konstatis, 'ke se ni estis atendintaj eĉ unu tago plu, Benghazi - samampleksa urbo kiel Ŝarloto [Norda Karolino] - povus taŭgi kiel sceno de masakro kiu reeĥus tra la regiono k makulus la konsciencon de la mondo.
+</p>
+
+<p>
+Ĉi tio estis mensogo. La nura minaco estis okazonta venko de Libia (registara) armeo super ĝiaj fanataj Islamistaj antagonistoj. Libia estis tiam la dua plej moderna stato sur la Afrika kontinento k en Gaddafi, kun siaj projekti por financi revivigon de Pan-Afrikanismo, kreon de Afrika banko k Afrikan valuton per Libia ojlo, oni havis trafan kanditaton por malamiko de okcidenta koloniismo.
+</p>
+
+<p>
+La celo estis detrui la 'minacon' de Gaddafi k lian modernan staton. Kun apogo de Usono, Britio k Francio NATO lanĉis pli ol 4700 militaviadilajn elatakojn kontraŭ Libio. Laŭ Unuigitaj Nacioj triono estis direktita al infrastrukturaj ja civitanaj objektoj. Uraniaj militpintaĵoj estis uzitaj; la urboj de Misurata k Sirte estis tapiŝbombitaj. La Ruĝa Kruĉo identigis amastombejojn, k la Uniĝinta Nacia Infana Fondo (UNICEF) raportis ke la granda parto [de mortigitaj infanoj] estis malpli ol dekjaraj.
+</p>
+
+<p>
+Kiam oni rakontis al Hilary Clinton, eksterlandafera ministro de Obama, ke Gaddafi estis kaptita per insurekcianoj k sodomiigita per tranĉilo, ŝi ridis k diris al kamarao: 'Ni venis, ni vidis, li mortis!'
+</p>
+
+<p>
+14-a Septembro 2016 la Ĉambra de Deputata Komitato por Eksterlandaj Aferoj en Londono donis konkludon de jardaŭra studo pri la NATOa atako en Libio. Ili konstatis ke ĝi estis bazita sur kolekto da mensogoj - inkluzive la konto pri masakro en Benghazi.
+</p>
+
+<p>
+Pro la NATO-a bombado Libio estis ĵetita en humanitaran katastrofon. Miloj da homoj estis mortigitaj k ankoraŭ centoj da miloj forpelitaj de iliaj hejmoj, k Libio estis transformita el la plej altvivnivela Afrika lando en anarkian disfalintan staton.
+</p>
+
+<p>
+Pri la mandato de Obama Usono ampleksigis kvanton da landoj kie funkciadis ĝiaj 'specialaj taĉmentoj' ĝis 138, aŭ 70 elcentoj de la monda loĝantaro. La unua Afrkusona prezidento lanĉis kion estis efektive plenskalan invadon de Afriko.
+</p>
+
+<p>
+Rememorige de la 'granda impeto' en 19-a jarcento por akapari Afrikon, la t.n. Usona Afrikaŝtabo (Afrikom) jam bredadas reton meze de entuziaste kunlaboremaj k petegantaj ŝmirmonon k armilojn reĝimoj. La t.n. Afrikoma 'soldato al soldata' [aŭ ŝultro al ŝultra] doktrino enkadrigadas Usonajn oficirojn ĉiunivele, de simpla adjudanto ĝis generalo, en la lokajn militostarojn. Nur koloniiaj kaskoj mankas.
+</p>
+
+<p>
+Oni havas imprezon ke la fieran historion de Afrika liberigo, de Patrico Lumumba ĝis Nelson estis ekspedita en forgeson per iu nova nigrula, mastrumata kvankam per malnova blanka sklavproprietula klaso, koloniia poŝelito. Ĉi tiu poŝelito estas komisiita kun la 'historia misio', laŭ averto de la ĉioscia Frantz Fanon, instali 'senbridan sed kamuflitan kapitalismon.'
+</p>
+
+<p>
+Samjare kiel la NATO-a invado de Libio, en 2011, Obama anoncis sian novan 'Pivoto al Azio' strategion. Preskaŭ du trionoj de Usonaj mararmeaj fortoj devis esti translokitaj en Azio-Pacifikan regionon por, en la vortoj de Usona defendoministro, 'kontraŭstarigi minacon fare Ĉinio.'
+</p>
+
+<p>
+Minaco fare Ĉinio, tamen, ne ekzistis; male, ekzistis minaco al Ĉinio flanke Usono; ĉirkaŭ 400 Usonaj militbazoj konsistigis radrondon ĉirkaŭfermantan la Ĉiniajn industriajn korlandojn, kiun iu Pentagona officiisto karakterizis aprobeme kiel 'pendŝnuro'.
+</p>
+
+<p>
+Obama samtempe metis rakedojn en Orientan Eŭropon kiuj kolimatis Rusion. Estis neniu alia ol la sankta ricevanto de la Nobela Porpaca Premio kiu ampleksigis elspezon sur nukleaj ŝarĝokapoj al nivelo pli alta ol tiu de iu ajn Usona registaro ekde la Malvarma Milito - ja tio post promesi, en emocia diskurso prononcita centre de Prago en 2009, 'helpi malembarasi la mondon de nukleaj armiloj'.
+</p>
+
+<p>
+Obama k lia registaro bone sciis k la puĉo kontraŭ la registaro de Ukrainio kion devis organizi lia vic-eksterlandafera ministro, Viktoria Nuland, sendita en Kievon en 2014, provokus respondon flanke de Rusio k verŝajne rezultus en milito. Tio ja okazis.
+</p>
+
+<p>
+Mi skribas ĉi tiun la 30-a avrilo, datreveno de lasta tago de la plej longdaŭra milito de la dudeka jarcento, en Vjetnamio, ja kiun mi raportadis. Kiam mi alvenis en Sajgono mi estis tre juna, k mi lernis multon. Mi lernis rekoni la tre distingeblan motorzumadon de gigantaj B-52-oj, kiuj faligis ilian amasmortigadon de supre la nuaĝoj k ŝparis neniun k nenion; alfrontita kun brulita arbo festonita per kadavropecetoj mi lernis ne deturni la visaĝon; mi lernis taksi afablecon alte ol iam antaŭe; mi lernis ke Joseph Heller pravis en sia genia verkaĵo Catch-22, ke milito ne kongruas kun mense sanaj homoj; kaj mi lernis pri 'nia' propagand.
+</p>
+
+<p>
+Tra la tuta milito la propagandiloj diradis ke venka Vjetnamio bredigus sian komunistan malsanon en cetera Azio, k permesus al Granda Flava Perilo al nordo ĵeti sin sur Sudorientan Azion, kie landoj falua kiel 'domenludpecetoj'.
+</p>
+
+<p>
+La Vjetnamio de Ĥo Ĉi Mino venkis, sed nenio el supremenciita okazis. Male, Vjetnama civilizacio ekfloris, eĉ rimarkinde ekfloris, spite al la prezo pagita: tri milionoj da mortigitoj, eĉ sen mencii la kripligitoj, la misformitoj, la toksomaniiĝintoj, la veneniĝintoj, la perdintoj&#x2026;
+</p>
+
+<p>
+Se la propagandistoj de nia tempo gajnus sian militon kun Ĉinio, ĉi tiu estos nur ono de tio kiu alvenos. Aŭdigu vian voĉon.
+</p>
+
+<hr />
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Lou O'Carroll</p>
+<p class="date">Created: 2023-06-27 mar. 09:58</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
