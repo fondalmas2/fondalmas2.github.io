@@ -79,11 +79,7 @@ Sufiĉe strange Sherr ne referencas tiujn lastatempajn grandajn okcidentajn mili
 
 Sed ĉu ĉi tiu milito vere estas ekzistenca por Ukrainio aŭ Rusio? La vero estas, ke ekde kiam Ukrainio sendependiĝis en 1991 ĝi estas malstabila, profunde dividita pri ĉu rigardi okcidenten al EU aŭ orienten al Rusio. La politika kaj lingva divido generale ĉe la Dnepro eniras profunde en la historion.
 
-
 ![truce_of_andrusovo1667](/assets/truce_of_andrusovo1667.png)
-
-
-[notaĵo de t-kisto: bedaŭrinde mi ne kapablas reprodukti ĉi tiun mapon por vi. Ĝi estas ege interese. Mi rekomendas al vi konsultu la retapagaron d Craig Murray.]
 
 Moderna Ukrainio estas malsukcesa ŝtato kiu kolapsis en internan militon en 2014 post dudek jaroj da politika streĉiteco inter malkaŝe por-okcidentaj kaj por-rusaj politikaj fortoj kiuj estis rimarkinde egale ekvilibritaj.
 
