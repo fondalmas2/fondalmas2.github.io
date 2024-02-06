@@ -10,7 +10,7 @@ Konstruita por kolapsi: NATO rapide ŝanĝas direkton pri Ukrainio
 
 Post esti nutriginta fajron de konflikto kaj tiam promesinta al Kievo subtenon ĝis venko, la Okcidento nun incitas Zelensky trovi pacinterkonsenton —  favore al Rusio! Kia hontinda malŝparo da homaj vivoj ĉio ĉi tiu estis, skribas JOHN MCINALLY
 
-
+                      -------------------------
 
 Pledo flanke de 'The Washington Post' por meti finon al “magia pensmaniero” pri
 Ukrainio, kaj agnosko de NATO-ĉefo Jens Stoltenberg, ke “ni devas pretiĝi por
