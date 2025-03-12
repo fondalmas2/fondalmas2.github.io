@@ -1,0 +1,70 @@
+---
+layout: post
+title: "VIJAY PRASHAD - Kiaj eblecoj por paco en Ukrainio?"
+---
+
+Unue aperis en 'The Peoples Dispatch' 5-a de marto 2025 eldono
+
+Kiel aspektas la estonteco por Ukrainio? La teatra dramo en la Ovala Oficejo de la Blanka Domo pasintsemajne indikis abruptan ŝanĝon en direkto flanke de Trump for de tiu alprenita de Joe Biden rilate la milito kaj Eŭropo ĝenerale.
+
+![](/assets/vance_zelensky_mtng.png)
+
+[Usona Vice-Prezidanto JD Vance renkontiĝas kun Volodymyr Zelenskyy la 14-an de februaro. Kelksemajnojn poste ili interŝanĝis fajrajn vortojn en la Ovala Oficejo. Foto: Volodymyr Zelensky]
+
+La tuta afero esplosive fiaskis. La teatra dramo en la Ovala Oficejo de la Blanka Domo ekigis serion da antaŭvideblaj replikoj tra la mondo. Unu reago, kelkinstance, estis Indigno kontraŭ usona prezidanto Donald Trump pro lia malĝentileco kaj mokado por ukraina prezidanto Volodymyr Zelensky. Tiam poste, malsukceso de franca prezidanto Emmanuel Macron krei eŭropan interkonsenton kun unuiĝinta reĝlanda ĉefministro Keir Starmer kaj Zelensky demonstris la absolutan sakstraton en kio troviĝas ĉi tiu elĉerpita ukraina milito. Ĉiuj tiuspecaj diskutoj provokas simplan demandon: ĉu eliro el krizo troveblas?
+
+Konstanta milito
+
+Se Zelensky kaj liaj eŭropaj partneroj havas kiel militcelo malfortigi Rusion
+aŭ renversi la registaron de Vladimir Putin, tiam ĉi tiu milito eble daŭriĝos
+eterne aŭ akcelos en danĝeran nuklean konfronton. Opinisondoj en Rusio montras,
+ke la aprob-takso de Putin nun estas je 87%. Eĉ interpretanta ĉi tiun kun grandega porcio da skeptikismo, ĝi estus multe pli alta ol la aprob-takso en Francio por Macron. Se la rusa ekonomio ĝis nun montris sin neŝanceligebla en ĉi tiu milito, malverŝajnas ke ĝi plu malfortiĝu kun ĝia daŭrigo. Dume la evidenteco indikas, tamen, ke la eŭropa ekonomio suferas pro militinflacio, kiu ne reduktiĝis. Se ĉi tiu milito daŭros, diris Macron, tiam eŭropaj ŝtatoj devus pliigi sian
+militelspezon al 3% aŭ 3,5% de MEP. Tio plue minacus la vivnivelon de plejmultaj
+eŭropanoj. Ĉu junaj, laboristaj eŭropanoj pretus sin enmeti en danĝeran ukrainan frontlineon nome de (neatingebla) militcelo kiu estas malfortigi Rusion? - Malverŝajnas. (Evidentiĝas, krome, aparta kruela ironio de mezklasaj ukrainoj fuĝantaj de la lando al Okcidenta Eŭropo, kaj poste laboristaj okcidenteŭropanoj petataj veni kaj defendi tiun landon por ili!)
+
+Senfina milito kondukos al vana vivperdado en Ukrainio kaj al konstanta ekonomia krizo en Eŭropo. Sed pli verŝajnas ke fino eventuale alvenos, ĉar Usono ne pretas subteni tian militon senfine, nek finance nek armeee, kaj tiokaze ajna longperspektiva eŭropa engaĝiĝo al Ukrainio nepre disfalus.
+
+
+La korea solvo
+
+Se nek Ukrainio nek Rusio pretas moviĝi al batalhalto kaj, poste, intertraktata kompromiso (kiu inkluzivus sekurecajn garantiojn por ĉiuj flankoj), tiam ekzistas la ebleco, ke la nuna frontlinio, kiu etendiĝas de norda ĝis orienta Ukrainio, fariĝos konstanta Demilitigita Zono (DMZ). Tiel Ukrainio estus porĉiame dividita kun grandega malŝparo de socia riĉaĵo por konservi ĉiaman frontlineon. Ĉi tiu estas la plej verŝajna scenaro, kvankam eble ne plaĉus al eŭropanoj havi Koreion ene de sia kontinento.
+
+La sudkorea militistaro konservas 600 000 soldatojn laŭ la 38-a Paralelo, kune kun preskaŭ 30 000 usonaj soldatoj. Multe sama estas la situacio en la nordo. Miliardoj da dolaroj estas elspezitaj ĉiujare por gvatado kaj loĝistiko por pli ol 900 kvadrataj mejloj da teritorio kiu ne estas disponebla por ekonomia uzo. Eŭropo devus garantii ĉi tiun 'korean' solvon por Ukrainio dum eterneco (same kiel Usono provizas garantiojn kaj financon al Sud-Koreio, kaj Ĉinio faras la samon por Nord-Koreio).
+
+Sekureca konsorcio
+
+La Helsinka Procezo kiu aperis por alporti Usonon kaj Sovetujon en intertraktadon en 1975 kaj kiu formis la Organizon por Sekureco kaj Kunlaboro en Eŭropo (OSKE) ludis preskaŭ neniun rolon por paco en la milito kontraŭ Ukrainio.
+
+La nuraj interparolantoj, kiuj ricevis permeson paroli pri la milito en Ukrainio
+nome de Zelensky, estis Usono, la okcidenteŭropaj gvidantoj, la gvidantoj de la
+Eŭropa Unio (EU), kaj la Nordatlantika Traktato-Organizo (NATO). Gvidantoj el la
+orienta parto de Eŭropo - krom tiuj, kies landoj jam membriĝas en NATO-EU - aŭ silentis, aŭ estis informitaj, ke iliaj opinioj ne havis ajnan signifon. Sed estas ĝuste ĉi tiuj orienteŭropaj landoj kiuj estas samsortaj kun Ukrainio pro la fakto havi komunan limon kun Rusio, kaj estas ĝuste tiuj landoj kiuj plej bezonas formi sekurecan konsorcion kiu inkluzivus Rusion kaj havigus reciprokajn garantiojn. Tiuj landoj kiuj rekte kunhavas limon kun la okcidento de Rusio estas - de nordo ĝis sudo - Norvegio, Finnlando, Estonio, Latvio, Belorusio, Ukrainio, Kartvelio, kaj Azerbajĝano (Litovio kaj Pollando landlimas kun la Kaliningrada provinco, kiu estas rusa enklavo ĉe la Balta Maro). Tri el ili (Finnlando, Estonio kaj Latvio) estas membroj de NATO kaj de EU, dum unu el ili (Norvegio) estas membro de NATO sed ne de EU.
+
+Ĉu ĉi tiuj ok landoj ne povus alvoki Rusion al konferenco cele diskuti pli larĝan gamon da sekurecligitaj temoj ne limigitaj ekskluzive al Ukrainio? La fakto ke tri landoj, kiuj limas Rusion, jam estas NATO-membroj (unu el ili, Norvegio, estis fondmembro en 1949) sugestas, ke la tubero en la afero kun Ukrainio ne kuŝas en NATO-membreco mem. Pli ĝuste, ili devenas de angoro pri limlinioj haste kreitaj kiam la Sovjet-Unio kolapsis en 1991 (tio tuŝus Estonion, Latvion, Belorusion, Ukrainion, Kartvelion kaj Azerbajĝanon, sed ne Norvegion kaj Finnlandon, kiuj ne estis parto de Sovjet-Unio).
+
+En la fruaj 1980-aj jaroj, iama sveda ĉefministro Olafo Palme prezidis la Sendependan Komisionon pri Malarmado kaj Sekurecaj Temoj, kies raporto de 1982 'Common Security: A Program for Disarmament' antaŭenpuŝis la argumenton ke "La tasko de diplomatio estas limigi, disigi kaj subdividi konfliktojn, kaj ne ĝeneraligi kaj agregi ilin". Alivorte, ĉiuj konfliktoj ne povas esti solvataj samtempe. Paf-halto estas bona en si mem; la solvendaj aferoj  devas esti apartigitaj, kaj tiuj kiuj estas pli facilaj traktitaj unue por konstrui konfidon. Kunigi ĉiujn aferojn en unu problemon farigus disputon nesolveblan.
+
+La landoj, kiuj limas unu la alian, inkluzive de tiuj, kiuj limas kun Rusio sude kaj oriente, devas vivi unu apud la alia. Ili ne povas leviĝi el sia geografio kaj iri aliloken. Ukrainio ne povas esti translokigita al Francio. Ĝi devas resti apud Rusio. En tiu kazo, ĉi tiuj landoj devas trovi manieron konstrui fidon inter si.
+
+Komence, la aserto, ke oni ne povas fidi najbaron, estas la plej malbona maniero por konstrui konfidon inter la popoloj de najbaraj landoj. Nek EU nek NATO (sen plena usona armea subteno) povas subigi Rusion kaj devigi ĝin kliniĝi antaŭ Ukrainio. Brita kabineta ministro diris pasintjare, ke lia lando daŭrus apenaŭ ses monatoj en plenskala milito kun Rusio. Dume, raporto de Kiel Instituto por la Monda Ekonomio sugestas, ke Germanio elspezas sian monon aĉetante armilojn, sed ne havas permanentan armeon kiu kapablus defendi sin, des malpli venki en ofensiva milito kontraŭ Rusio. Eŭropo, sen Usono, estas ombro.
+
+  Se lando kiu limas kun Rusio petus, ke tia sekureca konsorcio estu konstruita, kaj se ĝi kapablus akiri garantiojn de NATO ne plivastiĝi pli orienten kaj de Rusio retiriĝi sian militistaron el la landlimaj regionoj - ĉiuj koncernitaj partioj nepre profitus. Rilatoj inter ĉi tiuj landoj jam longdaŭras; familimembroj jam delonge loĝas ambaŭflanke de la landlimo. Ĉiu malstreĉiĝo en rilatoj estus bona por la homaro ĝenerale, kaj se tia manovro kondukus al paco en Ukrainio, tio estus multe pli bona ol have konstantan cikatron sur ĉi tiu parto de la eŭropa kontinento.
+
+Vijay Prashad
+
+Elanglita de: Lou O'Carroll
+
+
+[Vijay Prashad estas barata historiisto, redaktisto, kaj ĵurnalisto. Li estas
+rezida skribisto kaj ĉefkorespondisto ĉe Globetrotter. Li estas redaktisto ĉe
+LeftWord Books kaj la direktoro de Tricontinental: Institute for Social
+Research. Li skribis pli ol 20 librojn, inkluzive de 'The Darker Nations and The
+Poorer Nations'. Liaj lastaj libroj estas 'On Cuba: Reflections on 70 Years of
+Revolution and Struggle' (kun Noam Chomsky), 'Struggle Makes Us Human: Learning
+from Movements for Socialism', kaj (ankaŭ kun Noam Chomsky) 'The Withdrawal:
+Iraq, Libya, Afganistan and the Fragility of US Power'.]
+
+
+
+Angla originalo ĉe:
+https://peoplesdispatch.org/2025/03/05/what-are-the-possibilities-for-peace-in-ukraine/
