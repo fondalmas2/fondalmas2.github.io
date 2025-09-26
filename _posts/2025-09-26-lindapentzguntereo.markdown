@@ -1,0 +1,111 @@
+---
+blog: post
+title: "Linda Pentz Gunter- Koŝmaro en paradizo - La forgesita genocido en Kongo"
+---
+
+LA TERURAĴOJ EN KONGO HAVAS MULTAJN KOMUNAJN STARPUNKTOJN KUN LA GENOCIDO EN
+GAZAO, ĈEFE EL ILI - LA FINANCA KAJ MILITA SUBTENO DE USONO (skribas **Linda Pentz Gunter**)
+
+
+
+
+![](/assets/kinshasa_protestor.png)
+
+[Homoj protestas en Kinŝaso kontraŭ la progresoj de la Ruando-subtenataj ribeluloj M23 en la orienta urbo Goma]
+
+
+
+Kiam oni demandas la kongolan aktivulon Kambale Musavuli: “Kio pri Kongo?” t.e. la granda forgesita genocido de nia tempo, dum la atento de la mondo estas direktita, preskaŭ ekskluzive, al Gazao, li tuj haltigas vin.
+
+“Estas frustre por mi aŭdi tion,” li diras, “ĉar dum mia tuta aktivado, la homoj kiuj plej helpis min estis la palestinanoj. Kio pri Kongo? Kio pri Sudano? Mi diras, kio pri homaj rajtoj?”
+
+Por Musavuli kaj aliaj, kiuj alfrontas la daŭrantan genocidon en sia patrujo, la Demokratia Respubliko Kongo, la paraleloj inter la abomenaĵoj tie kaj tio, kio okazas en Gazao, estas evidentaj.
+
+Kiel en Gazao, la plenumanto de la genocido en Kongo estas ŝtato — Ruando, kies popolo spertis sian propran genocidon en 1994, same kiel la judoj sub nazia okupacio en Eŭropo, el kiuj iuj fine elmigris al Israelo.
+
+Kiel en Gazao, la genocido en Kongo estas daŭrigata de la politika, milita kaj financa subteno de Usono, kies aliancanoj — Israelo en Gazao, kaj Ruando kaj Ugando en la DRC — respondecas pri la plenumado de genocido.
+
+“La kongolanoj diras, ke la nacio kiu mem havis genocidon nun faras genocidon en Kongo,” diris Musavuli dum unu el la semajnaj retseminarioj organizitaj de Kuracistoj Kontraŭ Genocido (DAG), usona grupo de kuracistoj fondita de du uson-palestinanoj, kiu fokusas je Gazao sed pledas por fini genocidon tutmonde.
+
+“En la amasa konscio de la mondo, por tiuj kiuj legis la historion, estas malfacile kredi, ke lando kiu spertis genocidon mem ankaŭ faras genocidon,” diris Musavuli.
+
+La genocido en Kongo komenciĝis longe antaŭ la nuna malordo kaj radikas en ĝia koloniisma historio. “Ni krias por justeco ekde 1885,” diris Musavuli.
+
+“Kiam la afrika kontinento estis dividita inter eŭropaj landoj, ili prenis Kongon — landon grandan kiel Okcidenta Eŭropo — kaj ili donis ĉi tiun teron al reĝo Leopoldo por la eltiro de resursoj, ĉefe kaŭĉuko,” li diris, referencanta la regadon de teroro sub la belga monarkio kaj poste. “Tiutempe, inter 1885 kaj 1908, cirkaŭ 10 ĝis 15 milionoj da kongolanoj mortis. Kaj estis kompleta silento en la mondo.”
+
+Post la rapida postulo je kaŭĉuko venis la bezono de uranio por la atoma epoko. Almenaŭ 80 % de la uranio en la atombombo faligita sur Hiroŝimon venis el sola minejo en Kongo, ĉe Ŝinkolobwe. Hodiaŭ, la postulo estas pri kobalto, kupro kaj litio por niaj komputiloj, poŝtelefonoj kaj baterioj.
+
+La mortnombro de la nuntempa genocido en Kongo, kiu komenciĝis en 1996, eble atingis la saman nivelon de barbaro kiel dum la belga regado. La hodiaŭa oficiala nombro estas ses milionoj da mortintoj, sed la fakta cifero verŝajne estas multe pli alta.
+
+“La lasta mortec-esploro en Kongo estis publikigita en 2008 de la Internacia Savkomitato,” diris Musavuli dum la retseminario. “Ili faris studon de 1998 ĝis 2007, kaj 5,4 milionoj da kongolanoj mortis, duono el ili infanoj malpli ol kvinjaraj, je ritmo de 25 000 mortoj monate.”
+
+Ekde 2008, tamen, neniu plu kalkulas la mortintojn en Kongo. “Do scienc-konsidere, se vi diras ke 10 milionoj mortis, la unua demando estos: kio estas via fonto?”
+
+Tiu subtakso estas ankoraŭ unu ligo inter la genocidoj en Kongo kaj Gazao. La oficialaj mortnombroj en Gazao, publikigitaj de la Gaza Sanministerio, preskaŭ certe subtaksas la veran nombron. La medicina ĵurnalo 'The Lancet' publikigis en januaro 2025 recenzitan esploron, analizanta la periodon de 7 oktobro 2023 ĝis 30 junio 2024, kiu taksis ke la oficialaj nombroj estis subtaksitaj je ĉirkaŭ 41%.
+
+En junio 2025, alia artikolo en 'The Lancet' konfirmis ke “la raportitaj nombroj de mortintoj verŝajne estas subtaksitaj,” citanta la defiojn pro masiva detruo de infrastrukturo.
+
+“La ministerio devis aldoni al sia kutima raportado — bazita sur homoj mortantaj en hospitaloj aŭ alportitaj tien mortaj — informojn el fidindaj amaskomunikiloj kaj unua-respondantoj,” skribis la aŭtoroj de la artikolo. “Ĉi tiu ŝanĝo neeviteble degradis la detalajn datumojn registritajn antaŭe.”
+
+Multaj korpoj restas sub la ruinoj, novaĵoj pri homoj malhaveblas aŭ ili simple ne estas nombritaj. Kaj dum la sanga okupacio de Israelo fariĝas ĉiam pli kruela kaj ĝia neniiga kampanjo daŭras.. baldaŭ, kiu en Gazao restos por fari kalkuladon?
+
+Por taksi ambaŭ la homan perdon pro militkrimoj en Kongo kaj kiuj respondecis, UN iniciatis en junio 2008 mapan esploron, rigardante malobservojn de homaj rajtoj kaj internacia juro en DRC inter marto 1993 kaj junio 2003. La raporto estis publikigita en 2010.
+
+“La raporto konkludas, ke la plimulto de la dokumentitaj krimoj kvalifikiĝas kiel krimoj kontraŭ la homaro kaj militkrimoj,” raportis Human Rights Watch tiam.
+
+“Kun referenco al unu serio de eventoj inter 1996 kaj 1997, la raporto levas la demandon, ĉu certaj krimoj faritaj de la ruanda armeo kaj ĝia kongola aliancano, la ribela grupo AFDL (Alianco de Demokrataj Fortoj por la Liberigo de Kongo-Zairo), kontraŭ rifuĝintoj hutuj el Ruando kaj kongolaj hutucivitanoj, povus esti klasifikitaj kiel genocido? La raporto specifas, ke sole kompetenta tribunalo estus en mezuro decidi tion.”
+
+Tiu “kompetenta tribunalo” neniam estis kreita, malgraŭ ripetaj alvokoj de Dr. Denis Mukwege, gajninto de la Nobel-premio pri paco en 2018 kaj direktoro de la Panzi-Hospitalo en DRC, kiu senlace laboris por resanigi virinojn, infanojn kaj bebojn en Kongo, ofte viktimojn de brutalaj kaj multoblaj seksperfortoj.
+
+“Mi venas el unu el la plej riĉaj landoj sur la planedo. Tamen la homoj de mia lando estas inter la plej malriĉaj de la mondo,” diris Mukwege en sia Nobel-akcepta parolado.
+
+“La malkvietanta realo estas, ke la abundo de niaj naturresursoj — oro, koltano, kobalto kaj aliaj strategiaj mineraloj — estas la radiko de milito, ekstrema perforto kaj senfina malriĉeco.”
+
+Mukwege alvokis la jam longe prokrastitan tribunalon rekomenditan de la Mapprojekto, notante ke la raporto “eksplicite nomas la viktimojn, la lokojn kaj la datojn, sed lasas la krimintojn sennomajn.”
+
+La tribunalo estis urĝe necesa, li diris, ĉar “ĉi tiu homa tragedio daŭros se tiuj respondeculoj ne estos procesitaj. Nur la batalo kontraŭ senpunecon povas rompi la spiralon de perforto.”
+
+Multe el tiu perforto celis virinojn kaj infanojn, inkluzive de neimageblaj hororoj, al kiuj Mukwege nur aludis en sia Nobel-parolado. “Beboj, knabinoj, junulinoj, patrinoj, avinoj, kaj ankaŭ viroj kaj knaboj, kruele seksperfortitaj, ofte publike kaj kolektive, kun brulanta plasto aŭ tranĉaj objektoj enmetitaj en iliajn genitalojn,” li diris, poste aldonante: “Mi ŝparos al vi la detalojn.”
+
+Kiu specife plenumas la perfortojn ankaŭ estas intence nebule prezentita, diras Musavuli. Tial, li argumentas, justeco estas la unua esenca paŝo — kaj simpla paŝo — ĉar la krimintoj kiuj evitas justecon restas la samaj homoj. Ili nur ŝanĝas siajn nomojn. En 1996, ĝi estis la AFDL, en 1998 la RCD en 2009 la CNDP.
+
+“Kaj poste la sama grupo en 2012 fariĝis tio, kion ni hodiaŭ nomas la M23” diris Musavuli. “Do kiam vi aŭdas pri M23 — kaj la gazetaro diros al vi, ke estas centoj da ribelaj grupoj por konfuzi vin — mi diras, ke temas pri la samaj agantoj.”
+
+Dum la cirkonstancoj sur la tero eble malsamas en Kongo kaj Gazao, ambaŭ genocidoj nutriĝas el unu komuna radiko: subteno de Usono. Kiel unua paŝo al justeco, tio devas finiĝi, diras kongolaj aktivuloj kaj iliaj aliancanoj.
+
+“Tute same kiel Usono subtenas Israelon pri ĝiaj krimoj en Palestino, same Usono subtenas Ruandon pri ĝiaj krimoj en DRC,” diris Musavuli.
+
+La vojo antaŭen “ne nur baziĝas je rezisto, ĝi baziĝas je liberigo,” diris Maurice Carney, ekzekutiva direktoro de la organizo 'Amikoj de Kongo', dum lastatempa diskuto en Vaŝingtono.
+
+“Kaj liberigo signifas repreni niajn rakontojn, repreni nian teron, repreni niajn resursojn, repreni nian riĉecon, repreni niajn aferojn, por atingi finfine suverenecon.”
+
+Tio signifas fini la senbridan rabadon de la mineraloj de Kongo — resurso taksata je ĉirkaŭ 24 duilionoj da dolaroj — el kiuj neniu profito atingas la plimulton de la kongola loĝantaro, kiu ankoraŭ stagnas en malriĉeco.
+
+Inter la ĉefaj predantoj estas usonaj miliarduloj, inkluzive de Bill Gates kaj Jeff Bezos, kiuj ĵus subskribis unu-miliardan dolar-an kontrakton por partopreno en litia minejo tie.
+
+“Kongo estas la kolaterala viktimo,” diris Musavuli, dum “aliancanoj de Usono, Ruando kaj Ugando, estas la novaj koloniaj agentoj sur la tereno kaŭzantaj la ĥaoson.” Orkestrante ĉion malantaŭ la kulisoj estas la ruanda prezidanto Paul Kagame kaj lia militista elito, servanta al la interesoj de la Okcidento.
+
+Dume, turmentata Kongo, lando kun la agrikultura kapablo nutri tutan Afrikon kaj kies luksaj arbaroj funkcias kiel la plej granda karbon-sorbilo de la mondo, estis priskribita dum la projekcio de la nova filmo pri kobalta minado tie, 'Mikuba,' kiel “koŝmaro en paradizo.”
+
+Musavuli daŭrigos sian batalon por justeco en Kongo. Sed por li, tiu afero ne
+havas limojn. “Jes, kompreneble mi estas el Kongo,” li diris, finiganta siajn
+rimarkojn en la DAG-retseminario. “Sed hazarde mi naskiĝis sur planedo Tero. Do
+mi estas simple homa estaĵo, kiel ĉiuj aliaj en ĉi tiu retkunveno.”
+
+FINO DE ARTIKOLO
+
+
+
+
+
+Linda Pentz Gunter estas verkistino bazita en Takoma Park, Marilando.
+
+
+[originalo aperis en la brita komunista ĵurnalo 'The Morning Star' 31-aŭgusta 2025 eldono]
+
+Angla originalo troviĝas ĉe:
+https://morningstaronline.co.uk/article/worlds-forgotten-genocide-congo-nightmare-paradise
+
+
+
+Elangligis: Lou O'Carroll/ChatGPT
